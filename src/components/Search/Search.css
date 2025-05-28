@@ -1,0 +1,28 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--white);
+  padding: 5px 10px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+}
+
+.sc-input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--textActive);
+  width: 100%;
+}
+
+.sc-search-icon {
+  color: #888;
+}
+
+.sc-notification-icon {
+  color: var(--primaryActive);
+}

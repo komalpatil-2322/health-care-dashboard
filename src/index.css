@@ -1,0 +1,15 @@
+:root {
+  --sidebar: #f6faff;
+  --white: #fff;
+  --primary: #15f4ee;
+  --textActive: #111f5d;
+  --primaryActive: #3734a9;
+  --textLight: #9ba1a6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}

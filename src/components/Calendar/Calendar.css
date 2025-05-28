@@ -1,0 +1,105 @@
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendar-header-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--textActive);
+}
+
+.calendar-header-icon {
+  display: flex;
+  gap: 10px;
+}
+
+.calendar-header-icon .MuiSvgIcon-root {
+  font-size: 24px;
+  color: var(--primaryActive);
+}
+
+.calendar-body {
+  display: flex;
+}
+
+.calendar-day {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+}
+
+.calendar-day-day {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--textActive);
+  text-align: center;
+}
+
+.calendar-day-date {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--textActive);
+  text-align: center;
+}
+
+.calendar-day-active-dates {
+  height: 120px;
+  overflow-y: auto;
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+.calendar-day-active-dates::-webkit-scrollbar {
+  display: none;
+}
+
+.calendar-day-active-date {
+  height: 40px;
+  border-radius: 10px;
+  /* background-color: var(--primaryActive); */
+  color: var(--textActive);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+}
+
+/* .calendar-day-active-date:hover {
+  background-color: var(--primaryActive);
+  color: #fff;
+} */
+
+.calendar-day-active-date.active {
+  background-color: var(--primaryActive);
+  color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .calendar-day-day {
+    font-size: 10px;
+  }
+
+  .calendar-day-date {
+    font-size: 12px;
+  }
+
+  .calendar-day-active-dates {
+    height: 90px;
+  }
+
+  .calendar-day-active-date {
+    font-size: 10px;
+    height: 30px;
+  }
+}
