@@ -7,7 +7,7 @@ export const doctorsData = [
     active: true,
   },
   {
-    title: "Phesiotherapist",
+    title: "Physiotherapist",
     time: "11:00 - 12:00",
     doctor: "Dr. Henry Cavil",
     icon: "💪",
@@ -39,7 +39,7 @@ export const appointmentsData = [
         icon: "❤️",
       },
       {
-        title: "Phesiotherapist",
+        title: "Physiotherapist",
         time: "10:00 - 11:00",
         icon: "💪",
       },
@@ -54,7 +54,7 @@ export const appointmentsData = [
         icon: "🦷",
       },
       {
-        title: "Phesiotherapist",
+        title: "Physiotherapist",
         time: "10:00 - 11:00",
         icon: "💪",
       },
